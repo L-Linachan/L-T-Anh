@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Nhóm Máu & Người Cho Máu Phổ Quát</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="main.js">
+</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <button class="nut-menu" onclick="toggleMenu()" aria-label="Mở menu">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <nav class="navbar-links">
+        <a href="#" class="navbar-item">Trang chủ</a>
+        <a href="#nhom-mau" class="navbar-item">Nhóm máu</a>
+        <a href="#tuong-thich" class="navbar-item">Tương thích</a>
+        <a href="#quy-trinh" class="navbar-item">Quy trình hiến máu</a>
+        <a href="#lien-he" class="navbar-item">Liên hệ</a>
+      </nav>
+
+      <a class="nut-search" href="#" aria-label="Tìm kiếm">
+        <i class="fa fa-search"></i>
+      </a>
+    </div>
+  </header>
+
+  <div id="menuMobile" class="menu-mobile an">
+    <a href="#nhom-mau" class="menu-item" onclick="toggleMenu()">Nhóm máu</a>
+    <a href="#tuong-thich" class="menu-item" onclick="toggleMenu()">Tương thích</a>
+    <a href="#quy-trinh" class="menu-item" onclick="toggleMenu()">Quy trình hiến máu</a>
+    <a href="#lien-he" class="menu-item" onclick="toggleMenu()">Liên hệ</a>
+  </div>
+
+  <main class="khung-trang">
+
+    <div class="slide-anh">
+      <img src="hinh4.jpg" class="anh-full" alt="Hiến máu cứu người">
+      <div class="slide-caption">
+        <h3>Hiến máu – Hành động nhỏ, ý nghĩa lớn</h3>
+        <p><b>Một lần hiến có thể cứu được nhiều người.</b></p>
+      </div>
+    </div>
+
+    <div class="slide-anh">
+      <img src="hinh5.jpg" class="anh-full" alt="Quá trình hiến máu an toàn">
+      <div class="slide-caption">
+        <h3>Quy trình an toàn – nhanh gọn</h3>
+        <p><b>Bạn sẽ được khám và xét nghiệm trước khi hiến.</b></p>
+      </div>
+    </div>
+
+    <section id="nhom-mau" class="muc can-giua">
+      <h2 class="tieu-de-muc">CÁC NHÓM MÁU </h2>
+      <p class="chu-nho"><i>Biết nhóm máu để truyền và hiến đúng cách</i></p>
+
+      <p class="doan">
+        Hệ ABO gồm 4 nhóm chính: <b>O, A, B, AB</b>.
+        Mỗi nhóm dựa vào các kháng nguyên trên bề mặt hồng cầu.
+        Ngoài ra, yếu tố Rh quyết định bạn là <b>Rh(+)</b> hay <b>Rh(−)</b>.
+      </p>
+
+      <div class="khoi-anh">
+        <img src="hinh1.jpg" class="anh-noi-dung" alt="Kháng nguyên và kháng thể ABO">
+        <p class="ghi-chu-anh">Hình 1: Kháng nguyên – kháng thể trong hệ ABO.</p>
+      </div>
+
+      <div class="hang">
+        <div class="cot-6">
+          <div class="the-thong-tin">
+            <h4><i class="fa fa-tint"></i> Người cho máu phổ quát</h4>
+            <p><b>O Rh(−)</b> là nhóm cho phổ quát vì không có kháng nguyên A/B hoặc Rh.</p>
+          </div>
+        </div>
+
+        <div class="cot-6">
+          <div class="the-thong-tin">
+            <h4><i class="fa fa-heartbeat"></i> Người nhận máu phổ quát</h4>
+            <p><b>AB Rh(+)</b> là nhóm nhận phổ quát vì không có kháng thể kháng A/B.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tuong-thich" class="muc muc-den">
+      <h2 class="tieu-de-muc tieu-de-trang can-giua">NGUYÊN TẮC TƯƠNG THÍCH</h2>
+      <p class="chu-nho can-giua"><i>Truyền sai nhóm có thể gây nguy hiểm</i></p>
+
+      <p class="doan doan-trang">
+        Nhóm máu phải phù hợp để tránh phản ứng miễn dịch.
+      </p>
+
+      <div class="khoi-anh">
+        <img src="hinh2.jpg" class="anh-noi-dung" alt="Bảng tương thích">
+        <p class="ghi-chu-anh ghi-chu-trang">Hình 2: Bảng tương thích truyền máu.</p>
+      </div>
+    </section>
+
+    <section id="quy-trinh" class="muc">
+      <h2 class="tieu-de-muc can-giua">QUY TRÌNH HIẾN MÁU CƠ BẢN</h2>
+      <p class="chu-nho can-giua"><i>5 bước đơn giản</i></p>
+
+      <div class="khoi-anh">
+        <img src="hinh3.jpg" class="anh-noi-dung" alt="Quy trình hiến máu">
+        <p class="ghi-chu-anh">Hình 3: Quy trình hiến máu.</p>
+      </div>
+
+      <ol class="ds-buoc">
+        <li>Đăng ký thông tin.</li>
+        <li>Khám sàng lọc.</li>
+        <li>Hiến máu.</li>
+        <li>Nghỉ ngơi – ăn nhẹ.</li>
+        <li>Nhận giấy chứng nhận.</li>
+      </ol>
+
+      <div class="can-giua">
+        <button class="nut-chinh" onclick="openModal()">
+          Đặt lịch hiến máu (giả lập)
+        </button>
+      </div>
+    </section>
+
+    <div id="modalDatLich" class="modal an" aria-hidden="true">
+      <div class="modal-noi-dung">
+        <div class="modal-dau">
+          <span class="modal-dong" onclick="closeModal()">×</span>
+          <h2><i class="fa fa-calendar"></i> Đặt lịch hiến máu</h2>
+        </div>
+
+        <div class="modal-than">
+          <label><i class="fa fa-user"></i> Họ và tên</label>
+          <input type="text" class="o-nhap" placeholder="Nhập họ tên">
+
+          <label><i class="fa fa-phone"></i> Số điện thoại</label>
+          <input type="text" class="o-nhap" placeholder="Nhập số điện thoại">
+
+          <label><i class="fa fa-clock-o"></i> Thời gian mong muốn</label>
+          <input type="text" class="o-nhap" placeholder="VD: 8h sáng Chủ nhật">
+
+          <button class="nut-gui" onclick="closeModal()">GỬI ĐĂNG KÝ</button>
+
+          <button class="nut-dong" onclick="closeModal()">Đóng</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="lien-he" class="muc">
+      <h2 class="tieu-de-muc can-giua">LIÊN HỆ</h2>
+      <p class="chu-nho can-giua"><i>Hỏi đáp thêm về hiến máu</i></p>
+
+      <div class="hang">
+        <div class="cot-6">
+          <p><i class="fa fa-map-marker"></i> Đinh Thiện Lý, TP. Hồ Chí Minh, Việt Nam</p>
+          <p><i class="fa fa-phone"></i> Hotline: 115</p>
+          <p><i class="fa fa-envelope"></i> Email: hienmaucua2TuAnh.com</p>
+        </div>
+
+        <div class="cot-6">
+          <form class="form-lh">
+            <div class="hang">
+              <div class="cot-6">
+                <input class="o-nhap" type="text" placeholder="Tên" required>
+              </div>
+              <div class="cot-6">
+                <input class="o-nhap" type="text" placeholder="Email" required>
+              </div>
+            </div>
+            <input class="o-nhap" type="text" placeholder="Nội dung" required>
+            <button class="nut-gui nho">Gửi</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="chan-trang">
+    <div class="icon-chan">
+      <i class="fa fa-facebook-official"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-telegram"></i>
+    </div>
+    <p>Website do 2 Tú Anh – chủ đề Nhóm máu & Hiến máu</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
