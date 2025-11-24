@@ -1,2 +1,31 @@
 # L-T-Anh
 Code của Hiến máu và nhóm máu
+https://l-linachan.github.io/L-T-Anh/
+Chủ đề
+Trang web giới thiệu hệ nhóm máu ABO – Rh, nguyên tắc truyền máu và quy trình hiến máu.  
+
+Thành viên nhóm
+- Huỳnh Tú Anh – Driver/Navigator
+- Lê Tú Anh – Driver/Navigator
+
+Công nghệ sử dụng
+- HTML Semantic
+- CSS (tự viết)
+- JS thuần 
+- dùng framework W3school
+
+## Cấu trúc thư mục
+/project  
+│ index.html  
+│  
+└── assets/  
+      ├── css/style.css  
+      ├── js/main.js  
+      └── img/  
+
+Chạy trang
+Không cần cài đặt, xem tại GitHub Pages (link bên dưới).
+
+Link GitHub Pages
+(Điền sau khi bật Pages)
+
